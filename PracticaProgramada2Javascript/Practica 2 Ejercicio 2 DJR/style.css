@@ -1,0 +1,45 @@
+body {
+    background-color: #FAE3D9;
+}
+
+.sidebar {
+    height: 100%;
+    background-color: #D88273;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 12px 15px;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #BF6B5A;
+}
+
+.content {
+    margin-left: 240px;
+    padding: 20px;
+}
+
+.dark-mode {
+    background-color: #5C4033;
+    color: white;
+}
+
+.dark-mode .table {
+    color: white;
+}
+
+.dark-mode .btn {
+    color: white;
+    background-color: #A45D5D;
+}
